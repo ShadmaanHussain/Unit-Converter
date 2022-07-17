@@ -1,0 +1,151 @@
+/* font-family: 'Inter', sans-serif; */
+/* ----------------------------------------CSS Presets---------------------------------------- */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F4F4F4;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+/* ----------------------------------------Main CSS Rules---------------------------------------- */
+/* Input Section */
+
+#input-scn {
+    background-color: #6943FF;
+    color: #fff;
+    font-weight: 800;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 550px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero-txt {
+    font-size: 2rem;
+    margin-bottom: 1.7rem;
+}
+
+#input-el {
+    display: block;
+    margin: 0 auto 1.5rem;
+    width: 120px;
+    font-size: 4rem;
+    text-align: center;
+    background-color: #6943FF;
+    border: 2px solid #B295FF;
+    color: #FFF;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+.btn {
+    display: block;
+    margin: 10px auto;
+    font-family: 'Inter', sans-serif;
+    color: #6943FF;
+    background-color: #fff;
+    border: 1px solid #fff;
+    font-size: 1rem;
+    padding: 0.7em 1.7em;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.btn:hover, .btn:active {
+    color: #fff;
+    background-color: #6943FF;
+}
+
+/* Display Section */
+#display-scn {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.metric-el {
+    background-color: #fff;
+    padding: 1.5rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.unit {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: #5A537B;
+}
+
+.metric-el p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #353535;
+}
+
+/* ----------------------------------------Dark Mode Classes---------------------------------------- */
+
+.body-back {
+    background-color: #1F2937;
+}
+
+.metric-el-dark {
+    background-color: #273549;
+}
+
+.metric-el-dark p {
+    color: #fff;
+}
+
+.metric-el-dark h2 {
+    color: #CCC1FF;
+}
+
+
+
+
+
+
+
+
